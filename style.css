@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 37%;
+    font-size: 16px;
+    
+}
+.header-txt{
+    text-align: start;
+    margin-left: 29pc;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.details-info{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.country {
+    border: 1px solid #040202;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country img {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #dcc110;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f31717;
+}
+
+#countries-list{
+    margin-left: 30%;
+    margin-right: 30%;
+}
